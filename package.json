@@ -1,0 +1,26 @@
+{
+  "name": "primer-demo-mensajes-npm",
+  "version": "1.0.0",
+  "private": false,
+  "description": "random de mensajes",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mensajes",
+    "aleatorios",
+    "js",
+    "node",
+    "npm"
+  ],
+  "author": "Marcos Orozco Rios <marcos.or@gmail>",
+  "license": "MIT",
+  "bin": {
+    "random-msg": "./bin/global.js"
+  },
+  "preferGlobal": true,
+  "dependencies": {
+    "user": "0.0.0"
+  }
+}
